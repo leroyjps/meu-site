@@ -80,6 +80,21 @@ input{
 
 
 iframe {
-    width: 100; /* Garante que os iframes ocupem toda a largura da figura */
+    margin-block-start: auto;
+    
+    width: 100%; /* Garante que os iframes ocupem toda a largura da figura */
     height: 100; /* Garante que os iframes ocupem toda a altura da figura */
-  }
+    display: flex;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    text-align: left;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1{
+
+    text-align: center;
+}
