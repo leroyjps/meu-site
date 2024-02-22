@@ -78,3 +78,7 @@ footer {
     height: auto;
     margin-right: 10px; /* Espaçamento entre o logo e o texto do rodapé */
 }
+video {
+    max-width: 100%; /* Garante que o vídeo não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção original do vídeo */
+}
