@@ -1,0 +1,117 @@
+/* Global Styles */
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 144, 203);
+    transition: color 0.3s ease;
+}
+
+/* Header Styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Main Content Styles */
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Poppins Medium', sans-serif;
+}
+
+span {
+    color: rgb(0, 144, 203);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Poppins Light', sans-serif;
+}
+
+img {
+    width: 100%; /* Responsive image */
+}
+
+/* Form Styles */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input {
+    margin-top: 20px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+/* Add these styles to initially hide the form and style the button */
+#myForm {
+    display: none;
+}
+
+#openFormButton {
+    background-color: rgb(0, 144, 203); /* Change to your preferred color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#openFormButton:hover {
+    background-color: rgb(0, 120, 170); /* Change to a slightly darker shade for hover effect */
+}
