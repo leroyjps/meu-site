@@ -92,3 +92,11 @@ footer {
     height: auto;
     margin-right: 10px; /* Espaçamento entre o logo e o texto do rodapé */
 }
+
+h3{
+    text-align: center;
+    font-size: large ;
+    color: rgb(0, 144, 203);
+    size: 80px;
+
+}
