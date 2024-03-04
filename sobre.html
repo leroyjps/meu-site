@@ -6,7 +6,9 @@
     <link href="/styles/fonts.css" rel="stylesheet">
     <link rel="stylesheet" href="/styles/style_sobre.css">
     <link href="/styles/media.css" rel="stylesheet"
-      <body>
+      
+    
+    <body>
          <header>
         
              <div id="title">
@@ -19,7 +21,7 @@
                 <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="#">Entregas</a></li>
+                        <li><a href="Entregas.html">Entregas</a></li>
                         <li><a href="#">Solicitações</a></li>
                         <li><a href="#">Aprovações</a></li>
                         <li><a href="Embarques.html">Embarques</a></li>
@@ -56,28 +58,43 @@
         
       
       
-        </section><article>
+        </section>
+        
+        <article>
             <h2>Integração:</h2>
     
 
-                <video width="640" height="360" controls>
-                <source src="/components/images/Integração Visitantes.pp.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-            </video>
-            
+               
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uBGtfkTamGQ?si=zwE7gvZdxZXWlyDH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+           
         </article>
-      
+        
+    </div>
      </main>
    
-
+     <div class="popup-overlay" id="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+           
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jhrdpNbnJBo?si=_VbjlRbtE34X54CV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                Seu navegador não suporta o elemento de vídeo.
+           
+            
+            <!-- Adicione mais vídeos conforme necessário -->
+        </div>
     </div>
-    <footer>
+
+    <script src="poupup.js"></script>
+    
+        <footer>
         <img src="/components/images/Walterscheid.jpg" alt="Seu Logo" class="logo">
         <p>&copy; 2024 Walterscheid. Todos os direitos reservados.</p>
-      </footer>
+         </footer>
       
     
 
-</body>
- </head>
-</html>
+    
+    </body></head>
+    
+    </html>
