@@ -126,3 +126,18 @@ h3{
     margin-top: 50px;
     text-align: center;
 }
+.gallery {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.gallery img.active {
+    display: block;
+}
