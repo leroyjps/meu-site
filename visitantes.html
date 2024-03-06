@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Daily Walterscheid</title>
+    <meta name="descrition" content="Dia Walterscheid"> 
+    <link href="/styles/style.css" rel="stylesheet">
+    <link href="/styles/fonts.css" rel="stylesheet">
+    <link href="/styles/media.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div id="title">
+        <nav>             
+            <span>
+                <h1>Daily</h1>
+                <h1>Walterscheid</h1>
+            </span>
+        </div>  
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="Entregas.html">Entregas</a></li>
+            <li><a href="#">Solicitações</a></li>
+            <li><a href="aprovacao.html">Aprovações</a></li>
+            <li><a href="Embarques.html">Embarques</a></li>
+            <li><a href="Formulario.html">Manutenção</a></li>
+            <li><a href="oea.html">OEE</a></li>
+            <li><a href="visitantes.html">Visitantes</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <h1> Visitantes da semana</h1>
+    <div class="gallery">
+        <img src="/components/images/batista welcome.jpg" alt="Imagem 1">
+        <img src="/components/images/REINALDO CNH.JPG" alt="Imagem 2">
+        <img src="/components/images/WELCOME_ ODEMIR  ROMANENCO_WURTH .jpg" alt="Imagem 3">
+        <!-- Adicione mais imagens conforme necessário -->
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let currentImageIndex = 0;
+            const images = document.querySelectorAll('.gallery img');
+
+            function showNextImage() {
+                images[currentImageIndex].classList.remove('active');
+                currentImageIndex = (currentImageIndex + 1) % images.length;
+                images[currentImageIndex].classList.add('active');
+            }
+
+            setInterval(showNextImage, 3000); // Troca a cada 3 segundos
+        });
+    </script>
+</body>
+</html>
