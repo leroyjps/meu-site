@@ -38,7 +38,7 @@ ul {
 }
 
 li {
-    display: flex;
+    display:inline-block;
     margin: 0 10px;
 }
 
