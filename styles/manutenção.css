@@ -127,7 +127,7 @@ button:hover {
     }
 
     button {
-        max-width: 200px;
+        max-width: 20px;
         position: fixed; /* Torna o botão fixo */
         bottom: 20px; /* Define a distância do fundo da tela */
         left: 50%; /* Alinha o botão ao centro horizontal */
