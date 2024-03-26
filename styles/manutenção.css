@@ -35,17 +35,26 @@ a:hover{
 
 
 
+
+
+span{
+    color:  rgb(0, 144, 203);
+}
+
+
+
+
+h1{
+
+    text-align: center;
+}
+
 main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
     
     
-}
-
-
-span{
-    color:  rgb(0, 144, 203);
 }
 
 
