@@ -34,7 +34,12 @@ a:hover{
 }
 
 
-
+ul {
+    list-style-type: none;
+    margin: 0; /* Removido o margin para ajustar a lista à esquerda */
+    padding: 0;
+    text-align: center; /* Centraliza o texto */
+}
 
 
 span{
