@@ -4,7 +4,7 @@ body{
     font-family: poppinsregular;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0px;
 }
 
 header{
@@ -16,7 +16,7 @@ header{
 
 #title{
     flex-direction: column;
-    line-height: 10px;
+    line-height: 5px;
 }
 
 li{
