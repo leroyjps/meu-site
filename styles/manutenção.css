@@ -3,10 +3,9 @@ body {
     background-color: rgb(34, 34, 34);
     color: white;
     font-family: 'Poppins', sans-serif;
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    line-height: 1.6; /* Adicionado para melhorar a legibilidade */
+    line-height: 1.6;
 }
 
 a {
@@ -24,29 +23,28 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px; /* Adicionado espaçamento interno ao cabeçalho */
+    padding: 20px;
 }
 
 #title {
-    display: flex; /* Adicionado para alinhar os títulos verticalmente */
+    display: flex;
     flex-direction: column;
 }
 
 ul {
-    list-style-type: none; /* Removido o estilo de lista */
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 li {
     display: inline-block;
-    margin: 0 10px; /* Adicionado espaçamento entre os itens do menu */
+    margin: 0 10px;
 }
 
 /* Main Content Styles */
 main {
-    margin-top: 20px; /* Reduzido o espaço superior para melhorar a proporção */
-    padding: 0 20px; /* Adicionado espaçamento interno */
+    padding: 20px;
 }
 
 /* Form Styles */
@@ -56,16 +54,17 @@ form {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    max-width: 100%; /* Adicionado para evitar que o formulário seja mais largo que a tela */
 }
 
 input {
-    margin-top: 10px; /* Reduzido o espaçamento superior dos inputs */
+    margin-top: 10px;
     height: 40px;
     padding: 10px;
     border-radius: 20px;
     border: none;
     font-size: 15px;
-    width: 100%; /* Estender o input para preencher a largura */
+    width: 100%;
 }
 
 /* Footer Styles */
@@ -73,7 +72,7 @@ footer {
     background-color: rgb(34, 34, 34);
     color: white;
     padding: 20px;
-    text-align: center; /* Centralizar texto no rodapé */
+    text-align: center;
 }
 
 .logo {
@@ -85,8 +84,8 @@ footer {
 /* Botões e Formulários */
 #myForm, #myForm2 {
     display: none;
-    max-width: 600px; /* Limitar a largura do formulário */
-    margin: 0 auto; /* Centralizar formulário */
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 button {
@@ -96,105 +95,38 @@ button {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin-bottom: 10px; /* Adicionado espaço abaixo dos botões */
+    margin-bottom: 10px;
+    width: 100%; /* Estender o botão para preencher a largura */
 }
 
 button:hover {
     background-color: rgb(0, 120, 170);
 }
 
-}
+/* Media Queries para Dispositivos Móveis */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
 
-/* Main Content Styles */
+    #title {
+        text-align: center;
+    }
 
-main {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-}
+    ul {
+        margin-top: 20px;
+    }
 
-h2 {
-    font-size: 56px;
-    line-height: 10px;
-    font-family: 'Poppins Medium', sans-serif;
-}
+    main {
+        padding: 10px;
+    }
 
-span {
-    color: rgb(0, 144, 203);
-}
+    footer {
+        padding: 10px;
+    }
 
-p {
-    line-height: 20px;
-    max-width: 500px;
-    font-family: 'Poppins Light', sans-serif;
-}
-
-img {
-    width: 100%; /* Responsive image */
-}
-
-/* Form Styles */
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-
-input {
-    margin-top: 20px;
-    height: 40px;
-    padding: 10px;
-    border-radius: 20px;
-    border: none;
-    font-size: 15px;
-}
-
-/* Footer Styles */
-
-footer {
-    background-color: rgb(34, 34, 34);
-    color: white;
-    padding: 20px;
-    text-align: left;
-}
-
-.logo {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-}
-/* Add these styles to initially hide the form and style the button */
-#myForm {
-    display: none;
-}
-
-#myForm2 {
-    display: none;
-}
-
-#openFormButton {
-    background-color: rgb(0, 144, 203); /* Change to your preferred color */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-}
-#openFormButton2 {
-    background-color: rgb(0, 144, 203); /* Change to your preferred color */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-}
-#openFormButton:hover {
-    background-color: rgb(0, 120, 170); /* Change to a slightly darker shade for hover effect */
-}
-#openFormButton2:hover {
-    background-color: rgb(0, 120, 170); /* Change to a slightly darker shade for hover effect */
+    button {
+        max-width: 200px;
+    }
 }
