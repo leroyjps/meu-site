@@ -35,27 +35,11 @@ a:hover{
 
 
 
-main{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    
-    
-}
 
 
 span{
     color:  rgb(0, 144, 203);
 }
-
-
-
-img{
-    width: 400px;
-    margin-left: 0;
-}
-
-
 
 
 
@@ -65,6 +49,20 @@ h1{
     text-align: center;
 }
 
+
+
+img{
+    width: 400px;
+    margin-left: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    
+    
+}
 
 footer {
     background-color: rgb(34, 34, 34);
