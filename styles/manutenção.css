@@ -110,7 +110,11 @@ footer {
     display: none;
 }
 
-#openFormButton? {
+#myForm2 {
+    display: none;
+}
+
+#openFormButton {
     background-color: rgb(0, 144, 203); /* Change to your preferred color */
     color: white;
     padding: 10px 20px;
@@ -118,7 +122,17 @@ footer {
     border-radius: 20px;
     cursor: pointer;
 }
-
-#openFormButton?:hover {
+#openFormButton2 {
+    background-color: rgb(0, 144, 203); /* Change to your preferred color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#openFormButton:hover {
+    background-color: rgb(0, 120, 170); /* Change to a slightly darker shade for hover effect */
+}
+#openFormButton2:hover {
     background-color: rgb(0, 120, 170); /* Change to a slightly darker shade for hover effect */
 }
