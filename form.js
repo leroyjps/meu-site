@@ -3,3 +3,7 @@ document.getElementById('openFormButton').addEventListener('click', function() {
     form.style.display = (form.style.display === 'none' || form.style.display === '') ? 'flex' : 'none';
 });
 
+document.getElementById('openFormButton').addEventListener('click', function() {
+    var form = document.getElementById('myForm2');
+    form.style.display = (form.style.display === 'none' || form.style.display === '') ? 'flex' : 'none';
+});
