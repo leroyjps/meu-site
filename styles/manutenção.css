@@ -21,8 +21,7 @@ a:hover {
 /* Header Styles */
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+       align-items: center;
     padding: 20px;
 }
 
@@ -39,7 +38,7 @@ ul {
 }
 
 li {
-    display: center;
+    display: flex;
     margin: 0 10px;
 }
 
