@@ -100,7 +100,7 @@ footer {
     margin-right: 10px;
 }
 /* Add these styles to initially hide the form and style the button */
-#myForm? {
+#myForm {
     display: none;
 }
 
