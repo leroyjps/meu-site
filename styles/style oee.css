@@ -1,4 +1,4 @@
-body {
+body{
     background-color: rgb(34, 34, 34);
     color: white;
     font-family: poppinsregular;
@@ -7,41 +7,47 @@ body {
     padding: 0px;
 }
 
-header {
+header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-#title {
+#title{
     flex-direction: column;
-    line-height: 10px;
+    line-height: 5px;
 }
 
-li {
+li{
     display: inline-block;
     margin: 20px;
 }
 
-a {
+a{
     color: white;
 }
 
-a:hover {
+a:hover{
     color: rgb(0, 144, 203);
     transition: 0.3s all;
 }
 
-h1 {
-    font-weight: 200;
-}
 
-main {
+
+main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+    
+    
 }
+
+
+span{
+    color:  rgb(0, 144, 203);
+}
+
 
 h2 {
     font-size: 56px;
