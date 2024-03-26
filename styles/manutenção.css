@@ -54,7 +54,7 @@ form {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    max-width: 100%; /* Adicionado para evitar que o formulário seja mais largo que a tela */
+    max-width: 100%;
 }
 
 input {
@@ -91,12 +91,12 @@ footer {
 button {
     background-color: rgb(0, 144, 203);
     color: white;
-    padding: 10px 20px;
+    padding: 8px 16px; /* Reduzido o tamanho do botão */
     border: none;
     border-radius: 20px;
     cursor: pointer;
     margin-bottom: 10px;
-    width: 100%; /* Estender o botão para preencher a largura */
+    width: 100%;
 }
 
 button:hover {
@@ -128,5 +128,9 @@ button:hover {
 
     button {
         max-width: 200px;
+        position: fixed; /* Torna o botão fixo */
+        bottom: 20px; /* Define a distância do fundo da tela */
+        left: 50%; /* Alinha o botão ao centro horizontal */
+        transform: translateX(-50%); /* Centraliza o botão horizontalmente */
     }
 }
