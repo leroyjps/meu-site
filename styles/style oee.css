@@ -34,6 +34,21 @@ a:hover{
 }
 
 
+
+
+
+span{
+    color:  rgb(0, 144, 203);
+}
+
+
+
+
+h1{
+
+    text-align: center;
+}
+
 main{
     display: flex;
     flex-direction: row;
@@ -43,9 +58,7 @@ main{
 }
 
 
-span{
-    color:  rgb(0, 144, 203);
-}
+
 
 
 h2 {
@@ -54,9 +67,6 @@ h2 {
     font-family: poppinsmedium;
 }
 
-span {
-    color: rgb(0, 144, 203);
-}
 
 p {
     line-height: 20px;
