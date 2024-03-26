@@ -16,7 +16,7 @@ header{
 
 #title{
     flex-direction: column;
-    line-height: 10px;
+    line-height: 5px;
 }
 
 li{
@@ -32,7 +32,6 @@ a:hover{
     color: rgb(0, 144, 203);
     transition: 0.3s all;
 }
-
 
 h1{
     font-weight: 200;
