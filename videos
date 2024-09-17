@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style_sobre.css">
+    <link href="/styles/media.css" rel="stylesheet">
+</head>  
+
+<body>
+    <header>
+        <div id="Videos">
+            <nav>             
+                <span><h1>Daily</h1><h1>Walterscheid</h1></span>
+            </nav>  
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="Entregas.html">Entregas</a></li>
+                <li><a href="#">Solicitações</a></li>
+                <li><a href="aprovacao.html">Aprovações</a></li>
+                <li><a href="Embarques.html">Embarques</a></li>
+                <li><a href="Formulario.html">Manutenção</a></li>
+                <li><a href="oea.html">OEE</a></li>
+                <li><a href="visitantes.html">Visitantes</a></li>
+                <li><a href="Expedição.html">Expedição</a></li>
+            </ul>
+        </div>  
+    </header>
+
+    <main>
+        <div>
+            <h1>Videos</h1>
+
+            <article>
+                <h2>Integração:</h2>
+            </article>
+
+            <h3>Treinamento 5S</h3>
+            <article>
+                <!-- Vídeo do YouTube incorporado -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZSIRdzKFp-Q?si=q_9l7CuhKhoteyAT&amp;controls=0" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+        </div>
+    </main>
+
+    <script src="poupup.js"></script>
+
+    <footer>
+        <img src="/components/images/Walterscheid.jpg" alt="Seu Logo" class="logo">
+        <p>&copy; 2024 Walterscheid. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
